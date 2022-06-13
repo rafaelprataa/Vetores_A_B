@@ -1,1 +1,29 @@
-# Vetores_A_B
+# CONSIDERE OS DOIS VETORES A E B E QUE CADA UM CONTENHA CINCO ELEMENTOS A PARTIR DO 1. QUAL SERÁ O VALOR DA VARIÁVEL C A SER EXIBIDA PELO FLUXOGRAMA (NA IMAGEM), SE FOREM DIGITADOS OS SEGUINTES VALORES PARA OS VETORES A E B:
+
+ELEMENTOS DE A: (4, 6, 7, 1, 0) (NESTA ORDEM);
+ELEMENTOS DE B: (7, 1, 3, 1, 2) (NESTA ORDEM).
+
+## ALGORITMO DO EXERCICIO
+
+    INICIO
+		ENQUANTO X< 5 FAÇA
+			IMPRIMA 
+				"Valores dentro do Vetor A: "
+			IMPRIMA 
+				"Valores dentro do Vetor B: "
+
+		FIM ENQUANTO	
+
+
+		ENQUANTO X<5 FAÇA
+			c = c + (vetorA[x] * vetorB[x]);
+
+		FIM ENQUANTO
+			
+			IMPRIMA 
+				("Valor total da variavel C: " + c)
+
+    FIM
+    
+  ![fluxograma](https://user-images.githubusercontent.com/104045633/173463475-56df6733-0654-4324-8d5c-d7898b33157d.png)
+
